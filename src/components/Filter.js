@@ -19,7 +19,7 @@ const Filter = (props) => {
         </div>
         <div className='col-md-4'>
             <select class="form-select" onChange={(e)=>setSelectValue(e.target.value)} aria-label="Default select example">
-                <option selected>Order By</option>
+                <option selected>Sort By</option>
                 <option value="1">Created Date</option>
                 <option value="2">Maximum Likes</option>
             </select>
